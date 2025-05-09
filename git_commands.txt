@@ -1,0 +1,18 @@
+# Creating a Repository-  Create folder for the Repository, change to this folder and create an empty file in it
+knox@Knoxs-Mac-mini Code % mkdir GitChallenge2
+knox@Knoxs-Mac-mini Code % cd GitChallenge2
+knox@Knoxs-Mac-mini GitChallenge2 % touch myfile.txt
+
+#Initialize the new Repository
+knox@Knoxs-Mac-mini GitChallenge2 % git init
+Initialized empty Git repository in /Users/knox/Code/GitChallenge2/.git/
+
+#Add the changes alread done before
+knox@Knoxs-Mac-mini GitChallenge2 % git add .
+
+#Commit the changes
+knox@Knoxs-Mac-mini GitChallenge2 % git commit -m "initial commit"
+
+#Change - The just-created branch can be renamed via this command:
+ git branch -m main
+
